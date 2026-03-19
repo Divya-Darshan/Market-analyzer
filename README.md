@@ -9,6 +9,6 @@ This template should help get you started developing with Tauri, React and Types
 
 <p align="center">
   <a href="https://github.com/Divya-Darshan/Market-analyzer/raw/refs/heads/main/src-tauri/target/release/sube.exe">
-    <img src="https://img.shields.io/badge/Download%20exe-3DDC84?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=37ad4c" height="130"/>
+    <img src="https://img.shields.io/badge/Download%20exe-3DDC84?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=2abaf6" height="130"/>
   </a>
 </p>
