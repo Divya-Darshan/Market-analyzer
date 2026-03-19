@@ -12,3 +12,12 @@ This template should help get you started developing with Tauri, React and Types
     <img src="https://img.shields.io/badge/Download%20exe-3DDC84?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=2abaf6" height="130"/>
   </a>
 </p>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Divya-Darshan/Market-analyzer/main/example.csv
+  " download="sample-sales.csv">
+    <img src="https://img.shields.io/badge/Download%20Sales%20CSV-45e36e?style=for-the-badge&logo=file&logoColor=white" height="35"/>
+  </a>
+</p>
+
+
