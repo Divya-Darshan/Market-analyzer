@@ -1,23 +1,16 @@
-# Tauri + React + Typescript
+# 🚀 Market Analyzer - Sales Forecasting Desktop App
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+**Tauri + React + TypeScript** | Professional sales prediction tool
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-
+## 📥 One-Click Downloads
 
 <p align="center">
   <a href="https://github.com/Divya-Darshan/Market-analyzer/raw/refs/heads/main/src-tauri/target/release/sube.exe">
-    <img src="https://img.shields.io/badge/Download%20exe-3DDC84?style=for-the-badge&logo=windows&logoColor=white&labelColor=0A0A0A&color=2abaf6" height="130"/>
+    <img src="https://img.shields.io/badge/⬇️%20Download%20EXE-2abaf6?style=for-the-badge&logo=windows&logoColor=white&color=2abaf6" height="45"/>
+  </a>
+  &nbsp; &nbsp; &nbsp;
+  <a href="https://raw.githubusercontent.com/Divya-Darshan/Market-analyzer/main/example.csv" download="sample-sales.csv">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20CSV-45e36e?style=for-the-badge&logo=file&logoColor=white&color=45e36e" height="45"/>
   </a>
 </p>
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/Divya-Darshan/Market-analyzer/main/example.csv
-  " download="sample-sales.csv">
-    <img src="https://img.shields.io/badge/Download%20Sales%20CSV-45e36e?style=for-the-badge&logo=file&logoColor=white" height="35"/>
-  </a>
-</p>
-
 
