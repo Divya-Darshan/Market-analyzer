@@ -46,7 +46,7 @@
         <Media Id="1" Cabinet="app.cab" EmbedCab="yes" />
 
 
-        <Icon Id="ProductIcon" SourceFile="C:\Users\divya\work\sube\src-tauri\target\release\resources\icon.ico"/>
+        <Icon Id="ProductIcon" SourceFile="C:\Users\divya\work\Market-analyzer\src-tauri\target\release\resources\icon.ico"/>
         <Property Id="ARPPRODUCTICON" Value="ProductIcon" />
         <Property Id="ARPNOREPAIR" Value="yes" Secure="yes" />      <!-- Remove repair -->
         <SetProperty Id="ARPNOMODIFY" Value="1" After="InstallValidate" Sequence="execute"/>
@@ -114,7 +114,7 @@
                 <!-- Change the Root to HKCU for perUser installations -->
 </Component>
             <Component Id="Path" Guid="0f732955-2143-5caf-a55e-437992ae3d9d" Win64="$(var.Win64)">
-                <File Id="Path" Source="C:\Users\divya\work\sube\src-tauri\target\release\sube.exe" KeyPath="yes" Checksum="yes"/>
+                <File Id="Path" Source="C:\Users\divya\work\Market-analyzer\src-tauri\target\release\sube.exe" KeyPath="yes" Checksum="yes"/>
 </Component>
             
             <Component Id="CMP_UninstallShortcut" Guid="*">

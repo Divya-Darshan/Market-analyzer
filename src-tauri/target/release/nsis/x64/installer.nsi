@@ -39,7 +39,7 @@ ${StrLoc}
 !define SIDEBARIMAGE ""
 !define HEADERIMAGE ""
 !define MAINBINARYNAME "sube"
-!define MAINBINARYSRCPATH "C:\Users\divya\work\sube\src-tauri\target\release\sube.exe"
+!define MAINBINARYSRCPATH "C:\Users\divya\work\Market-analyzer\src-tauri\target\release\sube.exe"
 !define BUNDLEID "com.divya.sube"
 !define COPYRIGHT ""
 !define OUTFILE "nsis-output.exe"
@@ -56,7 +56,7 @@ ${StrLoc}
 !define MANUKEY "Software\${MANUFACTURER}"
 !define MANUPRODUCTKEY "${MANUKEY}\${PRODUCTNAME}"
 !define UNINSTALLERSIGNCOMMAND ""
-!define ESTIMATEDSIZE "8727"
+!define ESTIMATEDSIZE "9057"
 !define STARTMENUFOLDER ""
 
 Var PassiveMode
@@ -441,7 +441,7 @@ FunctionEnd
 ;Languages
 !insertmacro MUI_LANGUAGE "English"
 !insertmacro MUI_RESERVEFILE_LANGDLL
-  !include "C:\Users\divya\work\sube\src-tauri\target\release\nsis\x64\English.nsh"
+  !include "C:\Users\divya\work\Market-analyzer\src-tauri\target\release\nsis\x64\English.nsh"
 
 Function .onInit
   ${GetOptions} $CMDLINE "/P" $PassiveMode

@@ -49,7 +49,6 @@ function App() {
   const [selectedTimeframe, setSelectedTimeframe] = useState<'1H' | '4H' | 'D' | 'W'>('D');
   const [showTechnical, setShowTechnical] = useState(true);
   const [showVolume, setShowVolume] = useState(true);
-  const [chartType, setChartType] = useState<'candlestick' | 'volume'>('candlestick');
   const chartContainerRef = useRef<HTMLDivElement>(null);
 
   // Calculate technical indicators
@@ -342,7 +341,7 @@ function App() {
       const allSticks = [...result.candlesticks, ...result.forecastCandlesticks];
       
       // Format candlestick data for ECharts
-      const candleData = allSticks.map((stick, idx) => [
+      const candleData = allSticks.map((stick) => [
         stick.open,
         stick.close,
         stick.low,
